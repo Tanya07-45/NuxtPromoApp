@@ -1,13 +1,13 @@
 <template>
   <div>
 
-   <Hero />
+   <hero />
     <section class="section">
       <div class="container">
         <h1 class="title">Featured Courses</h1>
         <div class="columns">
           <div class="column is-one-quarter">
-           <CourseCard/>
+           <course-card/>
           </div>
         </div>
       </div>
@@ -17,7 +17,7 @@
         <h1 class="title">Featured Articles</h1>
         <div class="columns">
           <div class="column is-one-quarter">
-            <BlogCard/>
+            <blog-card/>
           </div>
         </div>
       </div>
