@@ -84,7 +84,9 @@ export default {
   },
   methods: {
     login() {
-      this.$v.form.$touch()//validate the input
+      this.$v.form.$touch()
+      //validate the input
+       this.$store.dispatch('auth/login', this.form)
     }
   }
 }
